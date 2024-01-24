@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using ShopFlower.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
 using ShopFlower.Data.Entities;
-
+using ShopFlower.Data.Extensions;
 
 namespace ShopFlower.Data.EF
 {
@@ -35,7 +35,7 @@ namespace ShopFlower.Data.EF
             modelBuilder.ApplyConfiguration(new SlideConfiguration());
             modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
             //Data seeding
-           // modelBuilder.Seed();
+            modelBuilder.Seed();
             //  base.OnModelCreating(modelBuilder);
         }
 
