@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopFlower.Data", "ShopFlower.Data\ShopFlower.Data.csproj", "{A173A2BE-546A-43F0-8586-F5F1FFCD5BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopFlower.Application", "ShopFlower.Application\ShopFlower.Application.csproj", "{32F9BADE-D3E9-44D4-A798-A46871C57018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{8A45AF1B-46E3-4C5E-BB6B-A04523CD5F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A45AF1B-46E3-4C5E-BB6B-A04523CD5F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A45AF1B-46E3-4C5E-BB6B-A04523CD5F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A173A2BE-546A-43F0-8586-F5F1FFCD5BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A173A2BE-546A-43F0-8586-F5F1FFCD5BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A173A2BE-546A-43F0-8586-F5F1FFCD5BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A173A2BE-546A-43F0-8586-F5F1FFCD5BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F9BADE-D3E9-44D4-A798-A46871C57018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F9BADE-D3E9-44D4-A798-A46871C57018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F9BADE-D3E9-44D4-A798-A46871C57018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F9BADE-D3E9-44D4-A798-A46871C57018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
